@@ -1,1 +1,34 @@
-/* Här skrivs all din CSS */
+#container{
+    display:grid;
+    height: 100vh;
+    grid-template-areas: header header header header;
+
+}
+
+.left{
+    grid-area: left;
+}
+
+.middleleft{
+grid-area: middle-left;
+}
+
+.middleright{
+grid-area: middle-right;
+}
+
+.right{
+grid-area: right;
+}
+
+aside{
+
+}
+
+main{
+
+}
+
+footer{
+
+}
